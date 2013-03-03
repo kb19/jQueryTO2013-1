@@ -11,6 +11,15 @@ Here are the files used during my presentation at jQueryTO 2013. It was a lot of
 
 Video Recording *hopefully* coming soon
 
+### Workflow Tools
+
+1. ".profile" - put this in your ~/ directory and relaunch terminal. If you get a minor error it means you don't have VCPrompt installed/in your path (for git repo identification). Either remove that line or install VCPrompt
+
+2. "calc.py" - run this to have a full featured calculator in your terminal
+
+3. "make_complete_sequence.sh" - this will loop through pictures in a folder recurrsivly and create an MOV file. Requires FFMPEG to be installed.
+
+4. "structure_public.sh" - awesome tool to build the folder/file structure of a new frontend project. Change as you like to meet your setup needs.
 
 ### Code Snippets
 These are in the repo, but you can see them here too!
