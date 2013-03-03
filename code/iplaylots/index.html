@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://iplaylots.local/ -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>iPlayLots</title>
+    <!-- include meta tags -->
+    
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <link rel="shortcut icon" type="image/x-icon" id="favicon" href="http://iplaylots.local/favicon-4.ico">
+<!-- include css -->
+    <link rel="stylesheet" type="text/css" href="./index_files/reset.css">
+        <link rel="stylesheet/less" type="text/css" href="./index_files/main.less"><style type="text/css" id="less:css-main">@font-face {
+  font-family: 'Arvil';
+  src: url('/css/fonts/arvil_sans-webfont.eot');
+  src: url('/css/fonts/arvil_sans-webfont.eot?#iefix') format('embedded-opentype'), url('/css/fonts/arvil_sans-webfont.woff') format('woff'), url('/css/fonts/arvil_sans-webfont.ttf') format('truetype'), url('/css/fonts/arvil_sans-webfont.svg#arvil_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* global */
+/* line 16, http://iplaylots.local/css/main.less */
+.wrap {
+  width: 972px;
+  margin: 0px auto;
+  position: relative;
+}
+/* line 22, http://iplaylots.local/css/main.less */
+.clear {
+  clear: both;
+}
+/* line 27, http://iplaylots.local/css/main.less */
+body {
+  background-color: #000;
+  font-size: 13px;
+  color: #fff;
+  font-family: sans-serif;
+}
+/* line 34, http://iplaylots.local/css/main.less */
+.page {
+  position: relative;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  width: 972px;
+  margin: 0px auto;
+}
+/* header */
+/* line 44, http://iplaylots.local/css/main.less */
+.header {
+  position: relative;
+}
+/* line 46, http://iplaylots.local/css/main.less */
+.header .top {
+  height: 11px;
+  width: 100%;
+  background: #fac90e;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fac90e), color-stop(25%, #fac90e), color-stop(25%, #1c9948), color-stop(50%, #1c9948), color-stop(50%, #d41f26), color-stop(75%, #d41f26), color-stop(75%, #1fb2e7), color-stop(100%, #1fb2e7));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to right, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fac90e', endColorstr='#1fb2e7', GradientType=1);
+  /* IE6-9 */
+
+}
+/* line 60, http://iplaylots.local/css/main.less */
+.header .nvr-container {
+  width: 972px;
+  height: 298px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 65, http://iplaylots.local/css/main.less */
+.header .nvr-container .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 972px;
+  height: 298px;
+  display: none;
+}
+/* line 73, http://iplaylots.local/css/main.less */
+.header .nvr-container .nvr {
+  width: 10000px;
+  height: 298px;
+  display: block;
+  /*
+			-webkit-transition-property:left;
+			-webkit-transition-duration:1s;
+			-webkit-transition-timing-function: ease;
+			*/
+
+  position: relative;
+}
+/* line 84, http://iplaylots.local/css/main.less */
+.header .nvr-container .nvr li {
+  background-repeat: no-repeat;
+  display: block;
+  width: 972px;
+  height: inherit;
+  float: left;
+}
+/* line 94, http://iplaylots.local/css/main.less */
+.header .iplaylots {
+  width: 163px;
+  height: 163px;
+  background-image: url(/../images/iplaylots.png);
+  position: absolute;
+  bottom: -110px;
+  left: 50%;
+  margin-left: -82px;
+  z-index: 100;
+}
+/* line 107, http://iplaylots.local/css/main.less */
+.artists,
+.biz,
+.companies {
+  position: relative;
+}
+/* line 109, http://iplaylots.local/css/main.less */
+.artists .left,
+.biz .left,
+.companies .left,
+.artists .right,
+.biz .right,
+.companies .right,
+.artists .full,
+.biz .full,
+.companies .full,
+.artists .middle,
+.biz .middle,
+.companies .middle {
+  position: relative;
+  width: 50%;
+  float: left;
+  cursor: pointer;
+  z-index: 10;
+}
+/* line 117, http://iplaylots.local/css/main.less */
+.artists .left .artist-image,
+.biz .left .artist-image,
+.companies .left .artist-image,
+.artists .right .artist-image,
+.biz .right .artist-image,
+.companies .right .artist-image,
+.artists .full .artist-image,
+.biz .full .artist-image,
+.companies .full .artist-image,
+.artists .middle .artist-image,
+.biz .middle .artist-image,
+.companies .middle .artist-image,
+.artists .left .biz-image,
+.biz .left .biz-image,
+.companies .left .biz-image,
+.artists .right .biz-image,
+.biz .right .biz-image,
+.companies .right .biz-image,
+.artists .full .biz-image,
+.biz .full .biz-image,
+.companies .full .biz-image,
+.artists .middle .biz-image,
+.biz .middle .biz-image,
+.companies .middle .biz-image,
+.artists .left .company-image,
+.biz .left .company-image,
+.companies .left .company-image,
+.artists .right .company-image,
+.biz .right .company-image,
+.companies .right .company-image,
+.artists .full .company-image,
+.biz .full .company-image,
+.companies .full .company-image,
+.artists .middle .company-image,
+.biz .middle .company-image,
+.companies .middle .company-image {
+  position: relative;
+  width: 100%;
+  height: 290px;
+  line-height: 298px;
+}
+/* line 123, http://iplaylots.local/css/main.less */
+.artists .left .artist-image .title,
+.biz .left .artist-image .title,
+.companies .left .artist-image .title,
+.artists .right .artist-image .title,
+.biz .right .artist-image .title,
+.companies .right .artist-image .title,
+.artists .full .artist-image .title,
+.biz .full .artist-image .title,
+.companies .full .artist-image .title,
+.artists .middle .artist-image .title,
+.biz .middle .artist-image .title,
+.companies .middle .artist-image .title,
+.artists .left .biz-image .title,
+.biz .left .biz-image .title,
+.companies .left .biz-image .title,
+.artists .right .biz-image .title,
+.biz .right .biz-image .title,
+.companies .right .biz-image .title,
+.artists .full .biz-image .title,
+.biz .full .biz-image .title,
+.companies .full .biz-image .title,
+.artists .middle .biz-image .title,
+.biz .middle .biz-image .title,
+.companies .middle .biz-image .title,
+.artists .left .company-image .title,
+.biz .left .company-image .title,
+.companies .left .company-image .title,
+.artists .right .company-image .title,
+.biz .right .company-image .title,
+.companies .right .company-image .title,
+.artists .full .company-image .title,
+.biz .full .company-image .title,
+.companies .full .company-image .title,
+.artists .middle .company-image .title,
+.biz .middle .company-image .title,
+.companies .middle .company-image .title {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  background-color: #000;
+  font-size: 80px;
+  text-align: center;
+  line-height: inherit;
+  font-family: 'Arvil', sans-serif;
+  opacity: .6;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .2s;
+}
+/* line 136, http://iplaylots.local/css/main.less */
+.artists .left .artist-image .title.focus,
+.biz .left .artist-image .title.focus,
+.companies .left .artist-image .title.focus,
+.artists .right .artist-image .title.focus,
+.biz .right .artist-image .title.focus,
+.companies .right .artist-image .title.focus,
+.artists .full .artist-image .title.focus,
+.biz .full .artist-image .title.focus,
+.companies .full .artist-image .title.focus,
+.artists .middle .artist-image .title.focus,
+.biz .middle .artist-image .title.focus,
+.companies .middle .artist-image .title.focus,
+.artists .left .biz-image .title.focus,
+.biz .left .biz-image .title.focus,
+.companies .left .biz-image .title.focus,
+.artists .right .biz-image .title.focus,
+.biz .right .biz-image .title.focus,
+.companies .right .biz-image .title.focus,
+.artists .full .biz-image .title.focus,
+.biz .full .biz-image .title.focus,
+.companies .full .biz-image .title.focus,
+.artists .middle .biz-image .title.focus,
+.biz .middle .biz-image .title.focus,
+.companies .middle .biz-image .title.focus,
+.artists .left .company-image .title.focus,
+.biz .left .company-image .title.focus,
+.companies .left .company-image .title.focus,
+.artists .right .company-image .title.focus,
+.biz .right .company-image .title.focus,
+.companies .right .company-image .title.focus,
+.artists .full .company-image .title.focus,
+.biz .full .company-image .title.focus,
+.companies .full .company-image .title.focus,
+.artists .middle .company-image .title.focus,
+.biz .middle .company-image .title.focus,
+.companies .middle .company-image .title.focus {
+  opacity: 0;
+}
+/* line 140, http://iplaylots.local/css/main.less */
+.artists .left #will-image,
+.biz .left #will-image,
+.companies .left #will-image,
+.artists .right #will-image,
+.biz .right #will-image,
+.companies .right #will-image,
+.artists .full #will-image,
+.biz .full #will-image,
+.companies .full #will-image,
+.artists .middle #will-image,
+.biz .middle #will-image,
+.companies .middle #will-image {
+  background-image: url(/../images/will.jpg?v=2);
+}
+/* line 144, http://iplaylots.local/css/main.less */
+.artists .left #rawls-image,
+.biz .left #rawls-image,
+.companies .left #rawls-image,
+.artists .right #rawls-image,
+.biz .right #rawls-image,
+.companies .right #rawls-image,
+.artists .full #rawls-image,
+.biz .full #rawls-image,
+.companies .full #rawls-image,
+.artists .middle #rawls-image,
+.biz .middle #rawls-image,
+.companies .middle #rawls-image {
+  background-image: url(/../images/rawls.jpg);
+}
+/* line 148, http://iplaylots.local/css/main.less */
+.artists .left #lon-image,
+.biz .left #lon-image,
+.companies .left #lon-image,
+.artists .right #lon-image,
+.biz .right #lon-image,
+.companies .right #lon-image,
+.artists .full #lon-image,
+.biz .full #lon-image,
+.companies .full #lon-image,
+.artists .middle #lon-image,
+.biz .middle #lon-image,
+.companies .middle #lon-image {
+  background-image: url(/../images/lon.jpg);
+}
+/* line 152, http://iplaylots.local/css/main.less */
+.artists .left #rene-image,
+.biz .left #rene-image,
+.companies .left #rene-image,
+.artists .right #rene-image,
+.biz .right #rene-image,
+.companies .right #rene-image,
+.artists .full #rene-image,
+.biz .full #rene-image,
+.companies .full #rene-image,
+.artists .middle #rene-image,
+.biz .middle #rene-image,
+.companies .middle #rene-image {
+  background-image: url(/../images/rene.jpg?v=2);
+}
+/* line 156, http://iplaylots.local/css/main.less */
+.artists .left #paul-image,
+.biz .left #paul-image,
+.companies .left #paul-image,
+.artists .right #paul-image,
+.biz .right #paul-image,
+.companies .right #paul-image,
+.artists .full #paul-image,
+.biz .full #paul-image,
+.companies .full #paul-image,
+.artists .middle #paul-image,
+.biz .middle #paul-image,
+.companies .middle #paul-image {
+  background-image: url(/../images/paul.jpg);
+}
+/* line 160, http://iplaylots.local/css/main.less */
+.artists .left #pf-image,
+.biz .left #pf-image,
+.companies .left #pf-image,
+.artists .right #pf-image,
+.biz .right #pf-image,
+.companies .right #pf-image,
+.artists .full #pf-image,
+.biz .full #pf-image,
+.companies .full #pf-image,
+.artists .middle #pf-image,
+.biz .middle #pf-image,
+.companies .middle #pf-image {
+  background-image: url(/../images/pf.jpg);
+}
+/* line 162, http://iplaylots.local/css/main.less */
+.artists .left #pf-image .title,
+.biz .left #pf-image .title,
+.companies .left #pf-image .title,
+.artists .right #pf-image .title,
+.biz .right #pf-image .title,
+.companies .right #pf-image .title,
+.artists .full #pf-image .title,
+.biz .full #pf-image .title,
+.companies .full #pf-image .title,
+.artists .middle #pf-image .title,
+.biz .middle #pf-image .title,
+.companies .middle #pf-image .title {
+  display: none;
+}
+/* line 168, http://iplaylots.local/css/main.less */
+.artists .left #ya-image,
+.biz .left #ya-image,
+.companies .left #ya-image,
+.artists .right #ya-image,
+.biz .right #ya-image,
+.companies .right #ya-image,
+.artists .full #ya-image,
+.biz .full #ya-image,
+.companies .full #ya-image,
+.artists .middle #ya-image,
+.biz .middle #ya-image,
+.companies .middle #ya-image {
+  background-image: url(/../images/ya.jpg);
+}
+/* line 170, http://iplaylots.local/css/main.less */
+.artists .left #ya-image .title,
+.biz .left #ya-image .title,
+.companies .left #ya-image .title,
+.artists .right #ya-image .title,
+.biz .right #ya-image .title,
+.companies .right #ya-image .title,
+.artists .full #ya-image .title,
+.biz .full #ya-image .title,
+.companies .full #ya-image .title,
+.artists .middle #ya-image .title,
+.biz .middle #ya-image .title,
+.companies .middle #ya-image .title {
+  display: none;
+}
+/* line 177, http://iplaylots.local/css/main.less */
+.artists .left .artist-bio,
+.biz .left .artist-bio,
+.companies .left .artist-bio,
+.artists .right .artist-bio,
+.biz .right .artist-bio,
+.companies .right .artist-bio,
+.artists .full .artist-bio,
+.biz .full .artist-bio,
+.companies .full .artist-bio,
+.artists .middle .artist-bio,
+.biz .middle .artist-bio,
+.companies .middle .artist-bio,
+.artists .left .biz-bio,
+.biz .left .biz-bio,
+.companies .left .biz-bio,
+.artists .right .biz-bio,
+.biz .right .biz-bio,
+.companies .right .biz-bio,
+.artists .full .biz-bio,
+.biz .full .biz-bio,
+.companies .full .biz-bio,
+.artists .middle .biz-bio,
+.biz .middle .biz-bio,
+.companies .middle .biz-bio,
+.artists .left .company-bio,
+.biz .left .company-bio,
+.companies .left .company-bio,
+.artists .right .company-bio,
+.biz .right .company-bio,
+.companies .right .company-bio,
+.artists .full .company-bio,
+.biz .full .company-bio,
+.companies .full .company-bio,
+.artists .middle .company-bio,
+.biz .middle .company-bio,
+.companies .middle .company-bio {
+  position: absolute;
+  width: 100%;
+  height: 290px;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .2s;
+}
+/* line 190, http://iplaylots.local/css/main.less */
+.artists .left .artist-bio .close,
+.biz .left .artist-bio .close,
+.companies .left .artist-bio .close,
+.artists .right .artist-bio .close,
+.biz .right .artist-bio .close,
+.companies .right .artist-bio .close,
+.artists .full .artist-bio .close,
+.biz .full .artist-bio .close,
+.companies .full .artist-bio .close,
+.artists .middle .artist-bio .close,
+.biz .middle .artist-bio .close,
+.companies .middle .artist-bio .close,
+.artists .left .biz-bio .close,
+.biz .left .biz-bio .close,
+.companies .left .biz-bio .close,
+.artists .right .biz-bio .close,
+.biz .right .biz-bio .close,
+.companies .right .biz-bio .close,
+.artists .full .biz-bio .close,
+.biz .full .biz-bio .close,
+.companies .full .biz-bio .close,
+.artists .middle .biz-bio .close,
+.biz .middle .biz-bio .close,
+.companies .middle .biz-bio .close,
+.artists .left .company-bio .close,
+.biz .left .company-bio .close,
+.companies .left .company-bio .close,
+.artists .right .company-bio .close,
+.biz .right .company-bio .close,
+.companies .right .company-bio .close,
+.artists .full .company-bio .close,
+.biz .full .company-bio .close,
+.companies .full .company-bio .close,
+.artists .middle .company-bio .close,
+.biz .middle .company-bio .close,
+.companies .middle .company-bio .close {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px 13px;
+  margin-top: 4px;
+  opacity: 0;
+}
+/* line 199, http://iplaylots.local/css/main.less */
+.artists .left .artist-bio h2,
+.biz .left .artist-bio h2,
+.companies .left .artist-bio h2,
+.artists .right .artist-bio h2,
+.biz .right .artist-bio h2,
+.companies .right .artist-bio h2,
+.artists .full .artist-bio h2,
+.biz .full .artist-bio h2,
+.companies .full .artist-bio h2,
+.artists .middle .artist-bio h2,
+.biz .middle .artist-bio h2,
+.companies .middle .artist-bio h2,
+.artists .left .biz-bio h2,
+.biz .left .biz-bio h2,
+.companies .left .biz-bio h2,
+.artists .right .biz-bio h2,
+.biz .right .biz-bio h2,
+.companies .right .biz-bio h2,
+.artists .full .biz-bio h2,
+.biz .full .biz-bio h2,
+.companies .full .biz-bio h2,
+.artists .middle .biz-bio h2,
+.biz .middle .biz-bio h2,
+.companies .middle .biz-bio h2,
+.artists .left .company-bio h2,
+.biz .left .company-bio h2,
+.companies .left .company-bio h2,
+.artists .right .company-bio h2,
+.biz .right .company-bio h2,
+.companies .right .company-bio h2,
+.artists .full .company-bio h2,
+.biz .full .company-bio h2,
+.companies .full .company-bio h2,
+.artists .middle .company-bio h2,
+.biz .middle .company-bio h2,
+.companies .middle .company-bio h2 {
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Arvil', sans-serif;
+  padding: 4px 13px;
+}
+/* line 206, http://iplaylots.local/css/main.less */
+.artists .left .artist-bio h3,
+.biz .left .artist-bio h3,
+.companies .left .artist-bio h3,
+.artists .right .artist-bio h3,
+.biz .right .artist-bio h3,
+.companies .right .artist-bio h3,
+.artists .full .artist-bio h3,
+.biz .full .artist-bio h3,
+.companies .full .artist-bio h3,
+.artists .middle .artist-bio h3,
+.biz .middle .artist-bio h3,
+.companies .middle .artist-bio h3,
+.artists .left .biz-bio h3,
+.biz .left .biz-bio h3,
+.companies .left .biz-bio h3,
+.artists .right .biz-bio h3,
+.biz .right .biz-bio h3,
+.companies .right .biz-bio h3,
+.artists .full .biz-bio h3,
+.biz .full .biz-bio h3,
+.companies .full .biz-bio h3,
+.artists .middle .biz-bio h3,
+.biz .middle .biz-bio h3,
+.companies .middle .biz-bio h3,
+.artists .left .company-bio h3,
+.biz .left .company-bio h3,
+.companies .left .company-bio h3,
+.artists .right .company-bio h3,
+.biz .right .company-bio h3,
+.companies .right .company-bio h3,
+.artists .full .company-bio h3,
+.biz .full .company-bio h3,
+.companies .full .company-bio h3,
+.artists .middle .company-bio h3,
+.biz .middle .company-bio h3,
+.companies .middle .company-bio h3 {
+  font-size: 30px;
+  color: #fed800;
+  font-family: 'Arvil', sans-serif;
+  padding: 4px 13px;
+}
+/* line 213, http://iplaylots.local/css/main.less */
+.artists .left .artist-bio p,
+.biz .left .artist-bio p,
+.companies .left .artist-bio p,
+.artists .right .artist-bio p,
+.biz .right .artist-bio p,
+.companies .right .artist-bio p,
+.artists .full .artist-bio p,
+.biz .full .artist-bio p,
+.companies .full .artist-bio p,
+.artists .middle .artist-bio p,
+.biz .middle .artist-bio p,
+.companies .middle .artist-bio p,
+.artists .left .biz-bio p,
+.biz .left .biz-bio p,
+.companies .left .biz-bio p,
+.artists .right .biz-bio p,
+.biz .right .biz-bio p,
+.companies .right .biz-bio p,
+.artists .full .biz-bio p,
+.biz .full .biz-bio p,
+.companies .full .biz-bio p,
+.artists .middle .biz-bio p,
+.biz .middle .biz-bio p,
+.companies .middle .biz-bio p,
+.artists .left .company-bio p,
+.biz .left .company-bio p,
+.companies .left .company-bio p,
+.artists .right .company-bio p,
+.biz .right .company-bio p,
+.companies .right .company-bio p,
+.artists .full .company-bio p,
+.biz .full .company-bio p,
+.companies .full .company-bio p,
+.artists .middle .company-bio p,
+.biz .middle .company-bio p,
+.companies .middle .company-bio p {
+  padding: 4px 13px;
+  font-size: 11px;
+  color: #fff;
+  line-height: 16px;
+  text-align: justify;
+}
+/* line 224, http://iplaylots.local/css/main.less */
+.artists .left .artist-bio.visible,
+.biz .left .artist-bio.visible,
+.companies .left .artist-bio.visible,
+.artists .right .artist-bio.visible,
+.biz .right .artist-bio.visible,
+.companies .right .artist-bio.visible,
+.artists .full .artist-bio.visible,
+.biz .full .artist-bio.visible,
+.companies .full .artist-bio.visible,
+.artists .middle .artist-bio.visible,
+.biz .middle .artist-bio.visible,
+.companies .middle .artist-bio.visible,
+.artists .left .biz-bio.visible,
+.biz .left .biz-bio.visible,
+.companies .left .biz-bio.visible,
+.artists .right .biz-bio.visible,
+.biz .right .biz-bio.visible,
+.companies .right .biz-bio.visible,
+.artists .full .biz-bio.visible,
+.biz .full .biz-bio.visible,
+.companies .full .biz-bio.visible,
+.artists .middle .biz-bio.visible,
+.biz .middle .biz-bio.visible,
+.companies .middle .biz-bio.visible,
+.artists .left .company-bio.visible,
+.biz .left .company-bio.visible,
+.companies .left .company-bio.visible,
+.artists .right .company-bio.visible,
+.biz .right .company-bio.visible,
+.companies .right .company-bio.visible,
+.artists .full .company-bio.visible,
+.biz .full .company-bio.visible,
+.companies .full .company-bio.visible,
+.artists .middle .company-bio.visible,
+.biz .middle .company-bio.visible,
+.companies .middle .company-bio.visible {
+  opacity: 1;
+}
+/* line 229, http://iplaylots.local/css/main.less */
+.artists .full,
+.biz .full,
+.companies .full {
+  position: relative;
+  width: 100%;
+  float: none;
+  cursor: pointer;
+  z-index: 10;
+}
+/* line 235, http://iplaylots.local/css/main.less */
+.artists .full h2,
+.biz .full h2,
+.companies .full h2 {
+  margin-top: 0px;
+  position: absolute;
+  top: 44px;
+  width: 400px;
+  text-align: center;
+}
+/* line 242, http://iplaylots.local/css/main.less */
+.artists .full h3,
+.biz .full h3,
+.companies .full h3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+}
+/* line 248, http://iplaylots.local/css/main.less */
+.artists .full p,
+.biz .full p,
+.companies .full p {
+  position: absolute;
+  top: 44px;
+  right: 10px;
+  width: 520px;
+}
+/* line 257, http://iplaylots.local/css/main.less */
+.artists .right h2,
+.biz .right h2,
+.companies .right h2,
+.artists .right .close,
+.biz .right .close,
+.companies .right .close,
+.artists .right h3,
+.biz .right h3,
+.companies .right h3 {
+  text-align: right;
+}
+/* line 264, http://iplaylots.local/css/main.less */
+.biz .left,
+.biz .middle,
+.biz .right {
+  z-index: 4;
+  width: 324px;
+}
+/* line 267, http://iplaylots.local/css/main.less */
+.biz .left .biz-image,
+.biz .middle .biz-image,
+.biz .right .biz-image {
+  height: 230px;
+  line-height: 230px;
+}
+/* line 272, http://iplaylots.local/css/main.less */
+.biz .left .biz-bio,
+.biz .middle .biz-bio,
+.biz .right .biz-bio {
+  height: 230px;
+}
+/* line 274, http://iplaylots.local/css/main.less */
+.biz .left .biz-bio h2,
+.biz .middle .biz-bio h2,
+.biz .right .biz-bio h2 {
+  margin-top: -20px;
+}
+/* line 280, http://iplaylots.local/css/main.less */
+.biz .left .biz-bio p,
+.biz .middle .biz-bio p,
+.biz .right .biz-bio p {
+  font-size: 10px;
+  line-height: 14px;
+}
+/* line 289, http://iplaylots.local/css/main.less */
+.companies .left,
+.companies .full,
+.companies .right {
+  z-index: 4;
+}
+/* line 291, http://iplaylots.local/css/main.less */
+.companies .left .company-image,
+.companies .full .company-image,
+.companies .right .company-image {
+  height: 149px;
+  line-height: 149px;
+}
+/* line 296, http://iplaylots.local/css/main.less */
+.companies .left .company-bio,
+.companies .full .company-bio,
+.companies .right .company-bio {
+  height: 149px;
+}
+/* line 302, http://iplaylots.local/css/main.less */
+.devs {
+  position: relative;
+}
+/* line 304, http://iplaylots.local/css/main.less */
+.devs .left,
+.devs .middle,
+.devs .right {
+  width: 324px;
+  height: 149px;
+  overflow: visible;
+  position: relative;
+  float: left;
+}
+/* line 311, http://iplaylots.local/css/main.less */
+.devs .left .dev-image,
+.devs .middle .dev-image,
+.devs .right .dev-image {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+  z-index: 20;
+}
+/* line 318, http://iplaylots.local/css/main.less */
+.devs .left .dev-image .title,
+.devs .middle .dev-image .title,
+.devs .right .dev-image .title {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  background-color: #000;
+  font-size: 80px;
+  text-align: center;
+  line-height: inherit;
+  font-family: 'Arvil', sans-serif;
+  opacity: .6;
+  line-height: 149px;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .2s;
+}
+/* line 334, http://iplaylots.local/css/main.less */
+.devs .left .dev-image .title.focus,
+.devs .middle .dev-image .title.focus,
+.devs .right .dev-image .title.focus {
+  opacity: 0;
+}
+/* line 339, http://iplaylots.local/css/main.less */
+.devs .left #tyler-image,
+.devs .middle #tyler-image,
+.devs .right #tyler-image {
+  background-image: url(/../images/tyler.jpg);
+}
+/* line 342, http://iplaylots.local/css/main.less */
+.devs .left #adam-image,
+.devs .middle #adam-image,
+.devs .right #adam-image {
+  background-image: url(/../images/adam.jpg);
+}
+/* line 345, http://iplaylots.local/css/main.less */
+.devs .left #jamie-image,
+.devs .middle #jamie-image,
+.devs .right #jamie-image {
+  background-image: url(/../images/jamie.jpg);
+}
+/* line 349, http://iplaylots.local/css/main.less */
+.devs .left .dev-bio,
+.devs .middle .dev-bio,
+.devs .right .dev-bio {
+  position: absolute;
+  width: 100%;
+  height: 230px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #000;
+  z-index: 5;
+  -webkit-transition-property: bottom;
+  -webkit-transition-duration: .2s;
+}
+/* line 361, http://iplaylots.local/css/main.less */
+.devs .left .dev-bio .close,
+.devs .middle .dev-bio .close,
+.devs .right .dev-bio .close {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px 13px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  opacity: 0;
+}
+/* line 373, http://iplaylots.local/css/main.less */
+.devs .left .dev-bio h2,
+.devs .middle .dev-bio h2,
+.devs .right .dev-bio h2 {
+  margin-top: 4px;
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Arvil', sans-serif;
+  padding: 4px 13px;
+}
+/* line 381, http://iplaylots.local/css/main.less */
+.devs .left .dev-bio h3,
+.devs .middle .dev-bio h3,
+.devs .right .dev-bio h3 {
+  font-size: 30px;
+  color: #fed800;
+  font-family: 'Arvil', sans-serif;
+  padding: 4px 13px;
+}
+/* line 388, http://iplaylots.local/css/main.less */
+.devs .left .dev-bio p,
+.devs .middle .dev-bio p,
+.devs .right .dev-bio p {
+  padding: 4px 13px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: justify;
+}
+/* line 397, http://iplaylots.local/css/main.less */
+.devs .left .dev-bio.visible,
+.devs .middle .dev-bio.visible,
+.devs .right .dev-bio.visible {
+  bottom: -230px;
+}
+/* line 404, http://iplaylots.local/css/main.less */
+.game {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  z-index: 1;
+}
+/* line 410, http://iplaylots.local/css/main.less */
+.game .nav {
+  position: relative;
+  width: 108px;
+  height: inherit;
+  display: block;
+  float: left;
+}
+/* line 416, http://iplaylots.local/css/main.less */
+.game .nav li.nav-item {
+  position: relative;
+  display: block;
+  width: 108px;
+  height: 74px;
+  line-height: 75px;
+  font-size: 40px;
+  font-family: 'Arvil', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: .5s;
+}
+/* line 430, http://iplaylots.local/css/main.less */
+.game .nav li.nav-item#nav-item-0 {
+  background-color: #ebebeb;
+  color: #555555;
+  border-bottom: 1px solid #b0afaf;
+}
+/* line 435, http://iplaylots.local/css/main.less */
+.game .nav li.nav-item#nav-item-1 {
+  background-color: #c2c2c1;
+  color: #636363;
+  border-bottom: 1px solid #b0afaf;
+}
+/* line 440, http://iplaylots.local/css/main.less */
+.game .nav li.nav-item#nav-item-2 {
+  background-color: #474646;
+  color: #a0a0a0;
+  border-bottom: 1px solid #464544;
+}
+/* line 445, http://iplaylots.local/css/main.less */
+.game .nav li.nav-item#nav-item-3 {
+  background-color: #252625;
+  color: #c2c2c1;
+  border-bottom: 1px solid #272727;
+}
+/* line 450, http://iplaylots.local/css/main.less */
+.game .nav li.nav-item.active {
+  cursor: pointer !important;
+}
+/* line 453, http://iplaylots.local/css/main.less */
+.game .nav li#nav-item-0:hover,
+.game .nav li#nav-item-0.active {
+  color: #eb2127 !important;
+}
+/* line 456, http://iplaylots.local/css/main.less */
+.game .nav li#nav-item-1:hover,
+.game .nav li#nav-item-1.active {
+  color: #1c9948 !important;
+}
+/* line 459, http://iplaylots.local/css/main.less */
+.game .nav li#nav-item-2:hover,
+.game .nav li#nav-item-2.active {
+  color: #fac90e !important;
+}
+/* line 462, http://iplaylots.local/css/main.less */
+.game .nav li#nav-item-3:hover,
+.game .nav li#nav-item-3.active {
+  color: #1fb2e7 !important;
+}
+/* line 466, http://iplaylots.local/css/main.less */
+.game .game-slider-container {
+  position: relative;
+  width: 864px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+}
+/* line 472, http://iplaylots.local/css/main.less */
+.game .game-slider-container ul.sliders {
+  position: relative;
+  display: block;
+  height: 1200px;
+  width: 864px;
+  -webkit-transition-property: top;
+  -webkit-transition-duration: .5s;
+}
+/* line 480, http://iplaylots.local/css/main.less */
+.game .game-slider-container ul.sliders li.slider {
+  position: relative;
+  display: block;
+  width: 864px;
+  height: 300px;
+}
+/* line 486, http://iplaylots.local/css/main.less */
+.game .game-slider-container ul.sliders li.slider ul {
+  position: relative;
+  display: block;
+  height: 300px;
+  width: 100000px;
+  -webkit-transition-property: left;
+  -webkit-transition-duration: .5s;
+}
+/* line 495, http://iplaylots.local/css/main.less */
+.game .game-slider-container ul.sliders li.slider ul li.slide {
+  position: relative;
+  display: block;
+  width: 864px;
+  height: 300px;
+  float: left;
+}
+/* line 508, http://iplaylots.local/css/main.less */
+.game .arrow-l,
+.game .arrow-r {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .8;
+  background-image: url(/../images/arrows.png);
+}
+/* line 519, http://iplaylots.local/css/main.less */
+.game .arrow-l {
+  background-position: 0px 0px;
+  left: 120px;
+}
+/* line 523, http://iplaylots.local/css/main.less */
+.game .arrow-r {
+  background-position: -50px 0px;
+  right: 6px;
+}
+/* line 528, http://iplaylots.local/css/main.less */
+.game .arrow-l:hover {
+  background-position: 0px -50px;
+}
+/* line 532, http://iplaylots.local/css/main.less */
+.game .arrow-r:hover {
+  background-position: -50px -50px;
+}
+/* line 537, http://iplaylots.local/css/main.less */
+.footer {
+  position: relative;
+  background-color: #000;
+}
+/* line 540, http://iplaylots.local/css/main.less */
+.footer .footer-logo {
+  height: 107px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(/../images/footer-logo.jpg);
+  width: 100%;
+}
+/* line 547, http://iplaylots.local/css/main.less */
+.footer .bottom {
+  height: 11px;
+  width: 100%;
+  background: #fac90e;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fac90e), color-stop(25%, #fac90e), color-stop(25%, #1c9948), color-stop(50%, #1c9948), color-stop(50%, #d41f26), color-stop(75%, #d41f26), color-stop(75%, #1fb2e7), color-stop(100%, #1fb2e7));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to right, #fac90e 0%, #fac90e 25%, #1c9948 25%, #1c9948 50%, #d41f26 50%, #d41f26 75%, #1fb2e7 75%, #1fb2e7 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fac90e', endColorstr='#1fb2e7', GradientType=1);
+  /* IE6-9 */
+
+}
+</style>
+    
+</head>
+<body>
+
+    <div class="page">
+        
+        <div class="header">
+            <div class="wrap">
+                <div class="top"></div>
+
+                <div class="nvr-container">
+                    <ul class="nvr" style="left: 0px;">
+                        <li style="background-image:url(/images/slides/top/0.jpg)"></li>
+                        <li style="background-image:url(/images/slides/top/1.jpg)"></li>
+                        <li style="background-image:url(/images/slides/top/3.jpg)"></li>
+                    </ul>
+                    <div class="cover" style="background-color: rgb(250, 201, 14); display: none;"></div>
+                </div>
+
+                <div class="iplaylots"></div>
+            </div>
+        </div><!-- /.header -->
+
+        <div class="artists">
+            <div class="wrap">
+                <div class="left">
+                    <div class="artist-image" id="will-image">
+                        <div class="title">Will</div>
+                    </div>
+                    <div class="artist-bio" id="rawls-bio">
+                        <div class="close">Close X</div>
+                        <h2>Darren Rawlings</h2>
+                        <h3>Concept Artist</h3>
+                        <p>Darren, (more commonly known as `Rawls`) began his life and love of art by drawing on the walls of his mothers womb.  Not long after that, he was successfully trained as a classical animator and artistic assassin.   Currently, Rawls is the creative director and owner of Thinkmore Studios, a company specializing in all things animation, illustration and motion graphics.  Thinkmore has animated award winning shows for Discovery Channel, BBC and multiple music videos for Warner Bros.  Rawls has just recently finished a graphic novel for Scholastic, due out this summer.</p>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="artist-image" id="rawls-image">
+                        <div class="title">Rawls</div>
+                    </div>
+                    <div class="artist-bio" id="will-bio">
+                        <div class="close">Close X</div>
+                        <h2>Will Chang</h2>
+                        <h3>3D Modeling &amp; Animation</h3>
+                       
+                        <p>
+                            Will is the Founder of Playfight: a High-end Motion graphics animation and commercial Visual effects for
+                            Feature Film, Sports packaging, commercials and live events. Playfight
+                            played a key role in designing Visual Effects and executing over 300 VFX
+                            shots for the show titled "Video Game High school" they continued work
+                            on "Superbodies" for the 2012 Summer Olympics in London. The show
+                            was awarded a Gemini for "Best sports analysis" Playfight was a large
+                            contributor to the BBC Documentary titled "Secret Universe: The Hidden
+                            Life of the Cell", as well as VFX for the HBO series "Transporter". He is a Co-Founder of IPlayLots Inc.</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div><!-- /.artists -->
+
+        <div class="devs">
+            <div class="wrap">
+                <div class="left">
+                    <div class="dev-image" id="tyler-image"><div class="title">Tyler</div></div>
+                    
+                    <div class="dev-bio" id="tyler-bio">
+                        <div class="close">Close X</div>
+                        <h2>Tyler Savery</h2>
+                        <h3>Lead Developer</h3>
+                      
+                        <p>
+                            Tyler has been programming for as long as he remembers. From making games as a kid, to helping launch full featured web app companies over the past few years, he is always learning and trying new things. He's particularily excited to work on Ninjas Vs. Robots as it combines his technical know how, with his love for strategic video games.
+                        </p>                    
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <div class="dev-image" id="adam-image"><div class="title">Adam</div></div>
+                    
+                    <div class="dev-bio" id="adam-bio">
+                        <div class="close">Close X</div>
+                        <h2>Adam Kunz</h2>
+                        <h3>Developer</h3>
+                        <p>Adam enjoys web and game development - having created
+a game concept prototype for a client as well as hobby programming. He finds
+ways to make everything in his life easier by coding a way to do it better. For
+example, using an&nbsp;Arduino&nbsp;unit and a custom script, his plants are watered three
+times a day automatically.</p>                    
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="dev-image" id="jamie-image"><div class="title">Jamie</div></div>
+                    
+                    <div class="dev-bio" id="jamie-bio">
+                        <div class="close">Close X</div>
+                        <h2>Jamie Tucker</h2>
+                        <h3>Developer</h3>
+                        <p>
+                            Jamie is an active member of the independent game design and developer
+                            community in Toronto, Regularly attending the plethora of information sessions
+                            and skill building workshops that are available every week in Toronto. He loves working in 3D space, with particle systems, animation systems, GUI
+                            implementation, writing custom shaders in Cg, as well as writing C#.
+                        </p>                    
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div><!-- /.dev -->
+
+
+        <div class="biz">
+            <div class="wrap">
+                <div class="left">
+                    <div class="biz-image" id="lon-image"><div class="title">Lon</div></div>
+                        <div class="biz-bio" id="lon-bio">
+                            <div class="close">Close X</div>
+                            <h2>Lon Molnar</h2>
+                            <h3>Strategic Advisor</h3>
+                            <p>Whether as CEO of Intelligent Creatures or as a leading Visual Effects Supervisor, Lon shows leadership in spades. If we don't say so ourselves, this leader's a natural. Lon began his career in graphic design but then caught a particularly virulent strain of a well-known bug - a passion for making pictures move. </p>                    
+                        </div>
+                </div>
+
+                <div class="middle">
+                    <div class="biz-image" id="rene-image"><div class="title">Rene</div></div>
+                    <div class="biz-bio" id="rene-bio">
+                        <div class="close">Close X</div>
+                        <h2>Rene Pardo</h2>
+                        <h3>Strategic Advisor</h3>
+                        <p>Mr. Pardo is a graduate of McGill (BSc 1968) and Harvard (M.Ed., 1968).
+As a first financier and/or co-founder of high tech start-ups, his initiatives have resulted in well over $75 million of R&amp;D.
+Mr Pardo co-invented the world's first electronic spreadsheet and the first online educational multimedia game.
+He also created the first artistic computer animation with Norman McLaren at the National Film Board and developed the world's first online conference registration and messaging system.</p>                    
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="biz-image" id="paul-image"><div class="title">Paul</div></div>
+                    <div class="biz-bio" id="paul-bio">
+                        <div class="close">Close X</div>
+                        <h2>Paul Belchamber</h2>
+                        <h3>Production Supervisor</h3>
+                        <p>Paul has built a career in many lucrative positions in consulting, telecommunications, and film - only to throw them all away to do what he really loves! Paul brings a wealth of experience in project management, game design, and an incredible knowledge of video games and movies with him, and he will be overseeing the mix of artistic and technical integration for IPlayLots.</p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="companies">
+            <div class="wrap">
+            <!--
+                <div class="full pf">
+                    <div class="company-image" id="pf-image"><div class="title">Playfight VFX</div></div>
+                        <div class="company-bio" id="pf-bio">
+                            <div class="close">Close X</div>
+                            <h2 class="pf-logo">Playfight VFX</h2>
+                            <h3>Playfight's Role</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>                    
+                        </div>
+                </div>
+            -->
+
+                <div class="full ya">
+                    <div class="company-image" id="ya-image"><div class="title">The Young Astronauts</div></div>
+                        <div class="company-bio" id="ya-bio">
+                            <div class="close">Close X</div>
+                            <h2>The Young Astronauts</h2>
+
+                            <h3>Strategic Advisor</h3>
+                            <p>The Young Astronauts are a group of young web, video, and marketing experts who make up a digital firm tackling the last frontier in media - the interconnectivity of sites, videos, and apps and the endless amount of combinations of these products that still exists to be explored. Their expertise will be made use of to market Ninjas Vs. Robots prior and upon launch.</p>                    
+                        </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="game">
+            <div class="wrap">
+
+                <ul class="nav">
+                    <li class="nav-item active" id="nav-item-0" data-i="0">Ninjas</li>
+                    <li class="nav-item" id="nav-item-1" data-i="1">Robots</li>
+                    <li class="nav-item" id="nav-item-2" data-i="2">Towers</li>
+                    <li class="nav-item" id="nav-item-3" data-i="3">Game</li>
+                </ul>
+
+                <div class="game-slider-container"><ul class="sliders"><li class="slider" id="slider-0"><ul><li class="slide" id="slide-0"><img src="./index_files/0.jpg"></li><li class="slide" id="slide-1"><img src="./index_files/1.jpg"></li><li class="slide" id="slide-2"><img src="./index_files/2.jpg"></li><li class="slide" id="slide-3"><img src="./index_files/3.jpg"></li></ul></li><li class="slider" id="slider-1"><ul><li class="slide" id="slide-0"><img src="./index_files/0(1).jpg"></li><li class="slide" id="slide-1"><img src="./index_files/1(1).jpg"></li><li class="slide" id="slide-2"><img src="./index_files/2(1).jpg"></li><li class="slide" id="slide-3"><img src="./index_files/3(1).jpg"></li><li class="slide" id="slide-4"><img src="./index_files/4.jpg"></li><li class="slide" id="slide-5"><img src="./index_files/5.jpg"></li><li class="slide" id="slide-6"><img src="./index_files/6.jpg"></li></ul></li><li class="slider" id="slider-2"><ul><li class="slide" id="slide-0"><img src="./index_files/0(2).jpg"></li><li class="slide" id="slide-1"><img src="./index_files/1(2).jpg"></li><li class="slide" id="slide-2"><img src="./index_files/2(2).jpg"></li><li class="slide" id="slide-3"><img src="./index_files/3(2).jpg"></li></ul></li><li class="slider" id="slider-3"><ul><li class="slide" id="slide-0"><img src="./index_files/0(3).jpg"></li><li class="slide" id="slide-1"><img src="./index_files/1(3).jpg"></li><li class="slide" id="slide-2"><img src="./index_files/2(3).jpg"></li><li class="slide" id="slide-3"><img src="./index_files/3(3).jpg"></li></ul></li></ul></div>
+
+
+                <div class="clear"></div>
+
+                <div class="arrow-l"></div>
+                <div class="arrow-r"></div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="wrap">
+                <div class="footer-logo"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+
+    </div><!-- /.page -->
+
+
+
+<!-- include js -->
+    
+        <script type="text/javascript">
+        less = {
+            env: "development", // or "production"
+            async: false,       // load imports async
+            fileAsync: false,   // load imports async when in a page under
+                                // a file protocol
+            poll: 500,         // when in watch mode, time in ms between polls
+            functions: {},      // user functions, keyed by name
+            dumpLineNumbers: "comments", // or "mediaquery" or "all"
+            relativeUrls: false,// whether to adjust url's to be relative
+                                // if false, url's are already relative to the
+                                // entry less file
+            rootpath: "/"// a path to add on to the start of every url
+                                //resource
+        };
+    </script>
+    <script src="./index_files/less.js" type="text/javascript"></script>
+    <script> less.watch(); </script>
+    
+    
+    <script type="text/javascript" src="./index_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./index_files/main.js"></script>  
+
+</body></html>
