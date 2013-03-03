@@ -5,9 +5,9 @@ Here are the files used during my presentation at jQueryTO 2013. It was a lot of
 
 [Audio Recording of my Talk](https://soundcloud.com/tylersavery/jquery-to-2013-talk)
 
-[Slides PDF](https://github.com/tylersavery/jQueryTO2013/blob/master/slides.pdf)
+[Slides PDF](https://github.com/tylersavery/jQueryTO2013/master/slides.pdf)
 
-![alt text](https://github.com/tylersavery/jQueryTO2013/blob/master/photo.jpg "Photo of me presenting!")
+![alt text](https://github.com/tylersavery/jQueryTO2013/master/photo.jpg "Photo of me presenting!")
 
 Video Recording *hopefully* coming soon
 
@@ -15,7 +15,9 @@ Video Recording *hopefully* coming soon
 ### Code Snippets
 These are in the repo, but you can see them here too!
 
-#### 1. callbacks (get triggered on each element - not once)
+#### Javascript Gotchas
+
+##### 1. callbacks (get triggered on each element - not once)
  ```javascript
 $(".item").fadeOut(function(){
 	
