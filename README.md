@@ -4,11 +4,10 @@
 Here are the files used during my presentation at jQueryTO 2013. It was a lot of fun and I wanted to make sure those who liked my approach could revisit my code samples. 
 
 ### Downloads
-[Audio Recording of my Talk](https://soundcloud.com/tylersavery/jquery-to-2013-talk)
 
-[Slides PDF](https://raw.github.com/tylersavery/jQueryTO2013/master/slideshow.pdf)
-
-Video Recording *hopefully* coming soon
+*[Audio Recording of my Talk](https://soundcloud.com/tylersavery/jquery-to-2013-talk)
+*[Slides PDF](https://raw.github.com/tylersavery/jQueryTO2013/master/slideshow.pdf)
+*Video Recording *hopefully* coming soon
 
 
 ### Code Snippets
@@ -40,7 +39,7 @@ var MyFunction = function(){
 }
 ```
 
-##### Using Selectors
+##### 3. Using Selectors
 ```javascript
 var FunctionThatIsCalledAllTheTime = function(w){
 
